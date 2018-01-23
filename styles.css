@@ -3,16 +3,23 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image : "/documents/pokemon_x_and_y_battle_background_16_by_phoenixoflight92-d8594wx.png"
+  background-repeat: no-repeat;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addBlinkyDancerButton{
   padding:5px 12px;
   float:right;
 }
+
+.title, .addSexyDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+
 .topbar{
   height:32px;
   background-color: #555;
@@ -21,7 +28,30 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  border:30px solid red;
+  border-radius:30px;
   position:absolute;
+}
+
+.blinkyDancer{
+  border:30px ;
+  border-radius:30px;
+  position:absolute;
+  background-image: url("https://vignette.wikia.nocookie.net/nickelodeon/images/4/47/Spongebob.png/revision/latest?cb=20170402020121");
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-size: 90px 90px;
+}
+
+
+.sexyDancer{
+  border:30px ;
+  border-radius:30px;
+  position:absolute;
+  background-image: url("https://vignette.wikia.nocookie.net/spongebob/images/8/8c/Patrick_star_fish.png/revision/latest?cb=20101103231454");
+  width: 75px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 77px 100px;
 }
