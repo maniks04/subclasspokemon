@@ -3,10 +3,15 @@ body, html{
 }
 body{
   margin: 0px;
-  background-image : "/documents/pokemon_x_and_y_battle_background_16_by_phoenixoflight92-d8594wx.png"
-  background-repeat: no-repeat;
+  background-color:#444;
+  background-image: url("http://www.gamingilluminaughty.com/wp-content/uploads/2016/08/three-funny-pokemons-playing-the-pokemon-go-game_1920x1080.jpg");
+  background-size:cover;
   font-size: 18px;
+  background-repeat: no-repeat;
+  overflow-x: hidden; 
+  overflow-y: hidden;
 }
+
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
@@ -28,30 +33,55 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:30px solid red;
-  border-radius:30px;
   position:absolute;
 }
 
-.blinkyDancer{
-  border:30px ;
-  border-radius:30px;
-  position:absolute;
-  background-image: url("https://vignette.wikia.nocookie.net/nickelodeon/images/4/47/Spongebob.png/revision/latest?cb=20170402020121");
-  width: 90px;
-  height: 90px;
+.pikachu{
+  background-image: url("https://s4.postimg.org/fucnrdeq5/pikachu.png");
+	width: 120px;
+	height: 160px;
   background-repeat: no-repeat;
-  background-size: 90px 90px;
+  background-size: 120px 160px;
 }
 
-
-.sexyDancer{
-  border:30px ;
-  border-radius:30px;
-  position:absolute;
-  background-image: url("https://vignette.wikia.nocookie.net/spongebob/images/8/8c/Patrick_star_fish.png/revision/latest?cb=20101103231454");
-  width: 75px;
-  height: 100px;
+.snorlax{
+  background-image: url("https://vignette.wikia.nocookie.net/deathbattlefanon/images/0/0b/Snorlax.png/revision/latest?cb=20161220042447");
+	width: 1600px;
+	height: 1800px;
   background-repeat: no-repeat;
-  background-size: 77px 100px;
+  background-size: 1600px 1800px;
 }
+
+.squirtle{
+  background-image: url("https://www.pokegoking.com/wp-content/uploads/Squirtle-e1473764763890.png");
+	width: 120px;
+	height: 160px;
+  background-repeat: no-repeat;
+  background-size: 120px 160px;
+}
+
+.charmander{
+  background-image: url("https://vignette.wikia.nocookie.net/agus-pokemon/images/5/56/Charmander.png/revision/latest?cb=20150531123106");
+	width: 120px;
+	height: 160px;
+  background-repeat: no-repeat;
+  background-size: 120px 160px;
+}
+
+.bulbasoar{
+  background-image: url("https://www.pokegoking.com/wp-content/uploads/Bulbasaur-300x300.png");
+	width: 120px;
+	height: 160px;
+  background-repeat: no-repeat;
+  background-size: 120px 160px;
+}
+
+
+.pokeball {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG");
+	width: 60px;
+	height: 60px;
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
